@@ -6,7 +6,7 @@ const BikeList = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/bikes")
+    fetch("https://chirag-tech-backend.onrender.com/bikes")
       .then((res) => res.json())
       .then((data) => {
         setBikeData(data);

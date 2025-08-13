@@ -5,7 +5,7 @@ const CarList = () => {
   const [carsData, setCarsData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/cars")
+    fetch("https://chirag-tech-backend.onrender.com/cars")
       .then((res) => res.json())
       .then((data) => setCarsData(data))
       .catch((err) => console.error("Error fetching cars:", err));

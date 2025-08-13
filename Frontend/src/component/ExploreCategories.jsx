@@ -19,7 +19,7 @@ function ExploreCategories() {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const res = await fetch("http://localhost:5000/categories");
+        const res = await fetch("https://chirag-tech-backend.onrender.com/categories");
         const data = await res.json();
         setCategories(data);
       } catch (error) {
