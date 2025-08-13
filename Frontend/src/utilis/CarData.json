@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Toyota",
+    "country": "Japan",
+    "foundedYear": 1937
+  },
+  {
+    "name": "Honda",
+    "country": "Japan",
+    "foundedYear": 1948
+  },
+  {
+    "name": "Ford",
+    "country": "USA",
+    "foundedYear": 1903
+  },
+  {
+    "name": "Chevrolet",
+    "country": "USA",
+    "foundedYear": 1911
+  },
+  {
+    "name": "BMW",
+    "country": "Germany",
+    "foundedYear": 1916
+  },
+  {
+    "name": "Mercedes-Benz",
+    "country": "Germany",
+    "foundedYear": 1926
+  },
+  {
+    "name": "Audi",
+    "country": "Germany",
+    "foundedYear": 1909
+  },
+  {
+    "name": "Volkswagen",
+    "country": "Germany",
+    "foundedYear": 1937
+  }
+]

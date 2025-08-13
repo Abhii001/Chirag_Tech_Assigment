@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Royal Enfield Classic 350",
+    "brand": "Royal Enfield",
+    "country": "India"
+  },
+  {
+    "name": "Honda CB Shine",
+    "brand": "Honda",
+    "country": "Japan"
+  },
+  {
+    "name": "Bajaj Pulsar 150",
+    "brand": "Bajaj",
+    "country": "India"
+  },
+  {
+    "name": "KTM Duke 390",
+    "brand": "KTM",
+    "country": "Austria"
+  },
+  {
+    "name": "Yamaha FZ-S",
+    "brand": "Yamaha",
+    "country": "Japan"
+  },
+  {
+    "name": "Suzuki Gixxer",
+    "brand": "Suzuki",
+    "country": "Japan"
+  }
+]

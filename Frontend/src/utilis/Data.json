@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "689b99b2db06dce3b59cb484"
+  },
+  "name": "Cars",
+  "image": "https://ik.imagekit.io/naklrvhu8/Cars.png?updatedAt=1755057617466"
+},
+{
+  "_id": {
+    "$oid": "689b99b2db06dce3b59cb485"
+  },
+  "name": "Bikes",
+  "image": "https://ik.imagekit.io/naklrvhu8/Bikes.png?updatedAt=1755057618697"
+},
+{
+  "_id": {
+    "$oid": "689b99b2db06dce3b59cb486"
+  },
+  "name": "Jobs",
+  "image": "https://ik.imagekit.io/naklrvhu8/Jobs.png?updatedAt=1755057618361"
+},
+{
+  "_id": {
+    "$oid": "689b99b2db06dce3b59cb487"
+  },
+  "name": "Mobiles",
+  "image": "https://ik.imagekit.io/naklrvhu8/Mobile.png?updatedAt=1755057617959"
+},
+{
+  "_id": {
+    "$oid": "689b99b2db06dce3b59cb488"
+  },
+  "name": "Real Estate",
+  "image": "https://ik.imagekit.io/naklrvhu8/RealState.png?updatedAt=1755057617936"
+}]
