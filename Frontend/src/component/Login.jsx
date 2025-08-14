@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import io from "socket.io-client";
+
+const socket = io("https://mobzway-task01.onrender.com", { autoConnect: false });
 
 const Login = () => {
     const navigate = useNavigate();
@@ -27,6 +30,13 @@ const Login = () => {
 
             if (response.ok) {
                 sessionStorage.setItem("userId", data.firstName);
+
+                  if (socket.connected) {
+                    socket.disconnect();
+                }
+
+                socket.connect();
+                socket.emit("authenticate", data.userId);
 
                 alert("Login successful!");
                 navigate("/dashboard");
