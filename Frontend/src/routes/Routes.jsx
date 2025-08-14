@@ -19,6 +19,11 @@ const appRoutes = createBrowserRouter([
                 path: '/signup',
                 element: <UserForm />
             },
+            {
+                path: '/login',
+                element:<Login/>
+            },
+
         ],
         errorElement: <Error />,
     },
