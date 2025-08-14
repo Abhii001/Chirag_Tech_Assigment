@@ -35,7 +35,7 @@ export default function CreateCar() {
     data.append("image", image);
 
     try {
-      const res = await fetch("http://localhost:5000/cars", {
+      const res = await fetch("https://chirag-tech-backend.onrender.com/cars", {
         method: "POST",
         body: data
       });
